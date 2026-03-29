@@ -1,0 +1,17 @@
+.What are the key architectural components to create a chatbot based on LLM?
+Please explain the approach on a high-level
+Components:
+1. User Interface
+Web where user interacts
+ 2.Backend Server
+• Handels request
+• Send queries to model
+ 3.LLM Model
+• Process input
+• Generates response
+4. Prompt Engineering Layer
+• Formats user query properly
+ 5. API Layer
+• Connects backend to model (OpenAI / local model)
+ 6.Memory / Context Handling
+• Maintains conversation history

@@ -1,0 +1,9 @@
+.Please explain vector databases. If you were to select a vector database for a
+hypothetical problem (you may define the problem) which one will you choose, and
+why?
+Vector databases store embeddings which represent the meaning of text. These
+embeddings are compared using similarity metrics like cosine similarity.
+For example, in a chatbot for college notes:
+- Notes are converted into vectors and stored
+- User query is converted into vector
+- Most similar content is retrieved
